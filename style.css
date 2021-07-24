@@ -42,19 +42,20 @@ p {
 
 header,
 footer {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 header {
-  background-color: rgb(250, 135, 135);
+  background-color: rgba(250, 135, 135, 0.75);
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position: sticky;
-  top: 0; */
+  position: sticky;
+  top: 0;
 }
 main {
-  background-color: rgb(136, 136, 136);
+  background-color: rgb(50, 50, 50);
+  color: #ccc;
 }
 footer {
   background-color: rgb(133, 205, 250);
@@ -82,7 +83,10 @@ footer {
   color: darkred;
 }
 .main-content {
-  margin: 1rem;
+  padding: 4rem 1rem;
+}
+.main-content h2 {
+  font-size: 1.75rem;
 }
 
 /* responsiveness */
@@ -95,7 +99,7 @@ footer {
     padding: 1rem 0;
   }
   .main-content {
-    margin: 4rem 4rem;
+    padding: 5rem 4rem;
   }
 }
 
@@ -104,7 +108,7 @@ footer {
 @media (max-height: 400px) {
   header,
   footer {
-    padding: 0.75rem 0;
+    padding: 0.5rem 0;
   }
   p {
     font-size: 1rem;
@@ -125,7 +129,7 @@ footer {
 @media (max-width: 300px) {
   header,
   footer {
-    padding: 0.75rem 0;
+    padding: 0.5rem 0;
   }
   .hero-section .content-box {
     font-size: 2rem;
