@@ -28,6 +28,7 @@
 body {
   font-family: sans-serif;
   background-color: #888;
+  background-color: lightgrey;
 }
 
 h2 {
@@ -42,7 +43,7 @@ p {
 
 header,
 footer {
-  padding: 0.5rem 0;
+  padding: 0.75rem 0;
 }
 
 header {
@@ -52,10 +53,14 @@ header {
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 main {
   background-color: rgb(50, 50, 50);
   color: #ccc;
+}
+main h2 {
+  color: #fff;
 }
 footer {
   background-color: rgb(133, 205, 250);
@@ -83,7 +88,7 @@ footer {
   color: darkred;
 }
 .main-content {
-  padding: 4rem 1rem;
+  padding: 4.5rem 1rem;
 }
 .main-content h2 {
   font-size: 1.75rem;
@@ -108,7 +113,7 @@ footer {
 @media (max-height: 400px) {
   header,
   footer {
-    padding: 0.5rem 0;
+    padding: 0.75rem 0;
   }
   p {
     font-size: 1rem;
@@ -120,7 +125,7 @@ footer {
     font-size: 2.5rem;
   }
   .main-content {
-    margin: 1.5rem;
+    padding: 4.5rem 1.5rem;
   }
 }
 
@@ -129,7 +134,7 @@ footer {
 @media (max-width: 300px) {
   header,
   footer {
-    padding: 0.5rem 0;
+    padding: 0.75rem 0;
   }
   .hero-section .content-box {
     font-size: 2rem;
@@ -144,7 +149,7 @@ footer {
 @media (max-height: 300px) {
   header,
   footer {
-    padding: 0.5rem 0;
+    padding: 0.75rem 0;
   }
   p {
     font-size: 1rem;
