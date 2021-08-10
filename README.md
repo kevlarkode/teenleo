@@ -4,6 +4,7 @@
 
 [netlify](https://teenleo.netlify.app)\
 [vercel](https://teenleo.vercel.app)\
+[glitch](https://teenleo.glitch.me/)\
 [heroku](https://teenleo.herokuapp.com)\
 [gitHub pages](https://kevlarkode.github.io/teenleo)\
 [firebase](https://teenleo.web.app)\
