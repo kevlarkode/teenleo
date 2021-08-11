@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
 /* Global Styles */
 
 *,
@@ -24,30 +21,28 @@
   background: #a1e7ad;
   color: #000000;
 }
-
 body {
   font-family: sans-serif;
-  background-color: #888;
-  background-color: lightgrey;
+  background-color: #808080;
+  background-color: #222;
 }
-
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
 h2 {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5vw;
 }
-
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.25vw;
 }
-
 header,
 footer {
-  padding: 0.75rem 0;
+  padding: 1vw 0;
 }
-
 header {
-  background-color: rgba(250, 135, 135, 0.75);
+  background-color: rgba(255, 166, 0, 0.75);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,21 +51,25 @@ header {
   z-index: 1;
 }
 main {
-  background-color: rgb(50, 50, 50);
+  background-color: #323232;
+}
+main .para {
+  padding-bottom: 1vw;
   color: #ccc;
 }
-main h2 {
+main .heading {
   color: #fff;
+  padding-bottom: 1vw;
 }
 footer {
-  background-color: rgb(133, 205, 250);
+  background-color: #222;
+  color: #eee;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .hero-section {
-  background-color: lightgrey;
+  background-color: #222;
   min-height: 95vh;
   display: flex;
   justify-content: center;
@@ -81,83 +80,81 @@ footer {
   margin: auto;
   text-align: center;
   text-transform: uppercase;
-  font-size: 3rem;
-  margin: 0 1rem;
+  font-size: 3vw;
+  margin: 0 1vw;
+  color: darkorange;
 }
 .hero-section .content-box span {
-  color: darkred;
+  color: orangered;
 }
 .main-content {
-  padding: 4.5rem 1rem;
+  padding: 4.5vw 1vw;
 }
 .main-content h2 {
-  font-size: 1.75rem;
+  font-size: 1.75vw;
 }
 
 /* responsiveness */
 
-/* big screens */
-
-@media (min-width: 750px) {
-  header,
-  footer {
-    padding: 1rem 0;
-  }
-  .main-content {
-    padding: 5rem 4rem;
-  }
-}
-
-/* for landscape mode of phones like iphone X */
-
-@media (max-height: 400px) {
-  header,
-  footer {
-    padding: 0.75rem 0;
+@media (max-height: 1400px) and (max-width: 1050px) {
+  h2 {
+    font-size: 3vw;
   }
   p {
-    font-size: 1rem;
+    font-size: 2.5vw;
+  }
+  header,
+  footer {
+    padding: 2vw 0;
+  }
+  main .para {
+    padding-bottom: 2vw;
+  }
+  main .heading {
+    padding-bottom: 2vw;
   }
   .hero-section {
-    min-height: 85vh;
+    min-height: 100vh;
   }
   .hero-section .content-box {
-    font-size: 2.5rem;
+    font-size: 5vw;
+    margin: 0 2vw;
   }
   .main-content {
-    padding: 4.5rem 1.5rem;
+    padding: 18vw 4vw;
+  }
+  .main-content h2 {
+    font-size: 3.5vw;
   }
 }
-
-/* for phones like  galaxay fold type phone */
-
-@media (max-width: 300px) {
-  header,
-  footer {
-    padding: 0.75rem 0;
-  }
-  .hero-section .content-box {
-    font-size: 2rem;
+@media (max-width: 500px) {
+  h2 {
+    font-size: 6vw;
   }
   p {
-    font-size: 1rem;
+    font-size: 5vw;
   }
-}
-
-/* for landscape mode of phones like galaxay fold */
-
-@media (max-height: 300px) {
   header,
   footer {
-    padding: 0.75rem 0;
+    padding: 4vw 0;
   }
-  p {
-    font-size: 1rem;
+  main .para {
+    padding-bottom: 4vw;
+  }
+  main .heading {
+    padding-bottom: 4vw;
   }
   .hero-section {
-    min-height: 85vh;
+    min-height: 100vh;
   }
   .hero-section .content-box {
-    font-size: 2rem;
+    font-size: 10vw;
+    margin: 0 4vw;
+  }
+  .main-content {
+    padding: 18vw 4vw;
+  }
+  .main-content h2 {
+    font-size: 7vw;
   }
 }
