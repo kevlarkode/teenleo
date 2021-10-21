@@ -8,7 +8,7 @@
 [heroku](https://teenleo.herokuapp.com)\
 [github pages](https://kevlarkode.github.io/teenleo)\
 [firebase](https://teenleo.web.app)\
-[cloudflare pages](https://teenleo.pages.dev)
+[cloudflare pages](https://teenleo.pages.dev)\
 [surge](https://teenleo.surge.sh)
 
 >dev branch
